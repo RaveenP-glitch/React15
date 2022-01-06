@@ -1,29 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class ClassMouse extends Component {
     constructor(props){
         super(props)
-
-        this.state = {
-            x:0,
-            y:0
-        }
+         this.state = {
+             x:0,
+             y:0
+         }
     }
 
     logMousePosition = e => {
-        this.setState({ x: e.clientX , y: e.clientY })
+        this.setState({ x:e.clientX, y: e.clientY })
     }
 
     componentDidMount(){
-        this.addEventListener('mousemove', this.logMousePosition)
+        window.addEventListener('mousemove', this.logMousePosition)
     }
-
 
     render() {
         return (
             <div>
-                <h1>Hello</h1>
-                X - {this.state.x} Y - {this.state.y} 
+                <h1>Nice to meet you!</h1>
+                X - {this.state.x} Y - {this.state.y}
+                
             </div>
         )
     }
