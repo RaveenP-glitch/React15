@@ -13,10 +13,14 @@ function App() {
       <div className="container">
         <h3>quesitons and answers about login</h3>
         <section className='info'>
-          
+          {questions.map((question) => {
+            return <SingleQuestion key={question.id} {...question}/>
+})}
+
         </section>
      
     </div>
+    </main>
   );
 }
 
