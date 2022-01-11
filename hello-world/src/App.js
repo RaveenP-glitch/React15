@@ -6,9 +6,9 @@ import Hello from './Hello';
 function App() {
   return (
     <div className="App">
-      {/* // <Greet />
-      // <Welcome /> */}
-      <Hello />
+    <Greet name="Raveen" heroName="Batman" />
+    <Greet name="Pulina" heroName="Superman"/>
+    <Hello />
     </div>
   );
 }
