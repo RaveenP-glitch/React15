@@ -41,7 +41,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --max-width: 1170px;
   --fixed-width: 450px;
-  --clr-pink: #f28ab2;
+  --clr-pink: #8b53d3;
 }
 /*
 =============== 
@@ -142,7 +142,8 @@ main {
 
 .container {
   width: 90vw;
-  margin: 5rem 0;
+  margin: 0 auto;
+  margin-top: 15rem;
   max-width: var(--fixed-width);
   background: var(--clr-white);
   border-radius: var(--radius);
