@@ -9,12 +9,15 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 function App() {
   return (
     <div className="App">
       <UserGreeting />
-
+       <IntervalClassCounter />
+       <IntervalHookCounter />
     </div>
   );
 }
