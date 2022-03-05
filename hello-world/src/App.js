@@ -11,13 +11,12 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
-       <IntervalClassCounter />
-       <IntervalHookCounter />
+      <DataFetching/>
     </div>
   );
 }
