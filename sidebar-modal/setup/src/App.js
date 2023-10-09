@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Modal from './Modal'
 import Sidebar from './Sidebar'
-
+import Home from './Home'
 function App() {
   return (
     <>
-      <Navbar />
-      {/* <Sidebar /> */}
+      <h2>modal-sidebar project setup</h2>
     </>
   )
 }
